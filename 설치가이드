@@ -1,0 +1,17 @@
+0. user 가 영문명이면 미리 변경해놓자.
+
+1. anaconda3 최신 설치 (파이선 3.11, 64bit)
+2. anaconda 가상환경 설치 (파이선 3.8, 32bit)
+1) anaconda prompt 실행한다.
+2) 명령어 순서
+set CONDA_FORCE_32BIT=1
+conda info
+conda create --name jejs python=3.8
+conda activate jejs
+pip install pyqt5
+
+3. 파이참 설치
+4. 파이참 실행 - 가상환경jejs 으로 환경 잡기
+
++ sqlite3 깔려있어야함
++ pip install scipy 할때 numpy, wheel 먼저 깔려있어야함
