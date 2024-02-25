@@ -1,3 +1,4 @@
+[jejs]
 0. user 가 영문명이면 미리 변경해놓자.
 
 1. anaconda3 최신 설치 (파이선 3.11, 64bit)
@@ -15,3 +16,7 @@ pip install pyqt5
 
 + sqlite3 깔려있어야함
 + pip install scipy 할때 numpy, wheel 먼저 깔려있어야함
+-------------------------------------------------------------------
+[rltrader]
+anacona3:C:\Anaconda3 (python 3.11)
+프로젝트위치 : C:\PycharmProjects\rltrader
